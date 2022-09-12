@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: indianred 2px solid;
+    padding: 5px 10px;
+}
+
+.header--left{
+    border: aqua 2px solid;
+}
+
+.header--right{
+    border: greenyellow 2px solid;
+    align-items: center;
+}
+
+
+
