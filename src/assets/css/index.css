@@ -23,18 +23,13 @@ img {
   height: auto;
 }
 
-main{
-  padding: 0 120px ;
+main.container{
+  margin: 15px auto 0 auto;
+  overflow: hidden;
 }
 
-.presentation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.presentation--name{
-  font-family: Roboto-Bold;
-  font-size: 39px;
+@media screen and (min-width:1440px){
+  main.container{
+    max-width: 1400px;
+  }
 }

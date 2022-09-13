@@ -1,0 +1,47 @@
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation--name{
+    font-family: Roboto-Bold;
+    font-size: 39px;
+}
+
+.presentation {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}
+
+
+.presentation--txt {
+    transform: translateX(-50%);
+    animation: slideIn 1s forwards;
+}
+
+.presentation--img {
+    transform: translateX(50%);
+    animation: slideIn 1s forwards;
+}
+
+.xp-years{
+    font-size: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn{
+    to {
+        transform: translateX(0%);
+    }
+}

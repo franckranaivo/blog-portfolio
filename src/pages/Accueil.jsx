@@ -1,18 +1,29 @@
 import React from 'react'
-import profilImg from '../assets/img/profil.jpg'
+import profilImg from '../assets/img/profile-bgless.jpg'
+import '../assets/css/pages/accueil.css'
 
 export default function Accueil() {
     return (
         <main className="container">
             <div className="presentation">
-                <div>
+                <div className="presentation--txt">
                     <p className="presentation--name">Hi, I'm <strong>Franck</strong> RANAIVO-HARISOA</p>
                     <p>Fullstack Web Developer ReactJS / Symfony</p>
                 </div>
-                <div>
+                <div className="presentation--img">
                     <img src={profilImg}/>
                 </div>
             </div>
+            {/* history */}
+            <div className={"record"}>
+                <div className={"xp"}>
+                    <span className={"xp-years"}>07+</span><span>Years as a web Developer</span>
+                </div>
+                <div className={"skills--list"}>
+                    
+                </div>
+            </div>
+
         </main>
     )
 }

@@ -6,9 +6,8 @@ export default function Navigation() {
     return (
         <nav>
             <ul>
-                <li><Link to="/">Accueil</Link></li>
-                <li><Link to="/a-propos">À propos</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/a-propos">About</Link></li>
+                <li><Link to="/contact">Contact me</Link></li>
             </ul>
         </nav>
     )
