@@ -23,3 +23,13 @@ img {
   height: auto;
 }
 
+main.container{
+  margin: 15px auto 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width:1440px){
+  main.container{
+    max-width: 1400px;
+  }
+}

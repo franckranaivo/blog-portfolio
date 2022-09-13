@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header--left{
+
+}
+
+.header--right{
+    align-items: center;
+}
+
+
+
