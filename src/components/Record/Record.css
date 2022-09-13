@@ -1,0 +1,9 @@
+.record {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.xp-years{
+    font-size: 50px;
+}
