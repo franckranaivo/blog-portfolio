@@ -26,9 +26,8 @@
     animation: slideIn 1s forwards;
 }
 
-.xp-years{
-    font-size: 50px;
-}
+
+
 
 @keyframes fadeIn {
     from {

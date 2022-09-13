@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Apropos() {
+export default function Blog() {
   return (
     <main className="container">
-        <h2>A propos</h2>
+        <h2>Welcome to the blog</h2>
     </main>
   )
 }

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes , Route } from 'react-router-dom'
 import './assets/css/fonts.css'
 import './assets/css/index.css'
-import Apropos from './pages/Apropos'
+import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Header from "./components/Header/Header";
 import Accueil from "./pages/Accueil";
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Header />
     <Routes>
       <Route path="/" element={<Accueil />}></Route>
-      <Route path="a-propos" element={<Apropos />}></Route>
+      <Route path="blog" element={<Blog />}></Route>
       <Route path="contact" element={<Contact />}></Route>
     </Routes>
   </BrowserRouter>

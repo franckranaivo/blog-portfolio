@@ -1,6 +1,7 @@
 import React from 'react'
 import profilImg from '../assets/img/profile-bgless.jpg'
 import '../assets/css/pages/accueil.css'
+import Record from "../components/Record/Record";
 
 export default function Accueil() {
     return (
@@ -15,14 +16,7 @@ export default function Accueil() {
                 </div>
             </div>
             {/* history */}
-            <div className={"record"}>
-                <div className={"xp"}>
-                    <span className={"xp-years"}>07+</span><span>Years as a web Developer</span>
-                </div>
-                <div className={"skills--list"}>
-                    
-                </div>
-            </div>
+            <Record/>
 
         </main>
     )
