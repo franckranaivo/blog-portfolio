@@ -1,6 +1,6 @@
 import React from 'react'
-import profilImg from '../assets/img/profile-bgless.jpg'
 import '../assets/css/pages/accueil.css'
+import profilImg from '../assets/img/profile-bgless.jpg'
 import Record from "../components/Record/Record";
 
 export default function Accueil() {
